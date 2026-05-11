@@ -1,4 +1,4 @@
-import { Eye, Bone, Heart, Ribbon, Activity } from 'lucide-react';
+import { Eye, Bone, Heart, Ribbon, Activity, Users } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
 
 interface SpecialtiesProps {
@@ -14,6 +14,7 @@ export default async function Specialties({ locale }: SpecialtiesProps) {
     { icon: Heart, title: t('spec3'), desc: t('spec3Desc') },
     { icon: Ribbon, title: t('spec4'), desc: t('spec4Desc') },
     { icon: Activity, title: t('spec5'), desc: t('spec5Desc') },
+    { icon: Users, title: t('spec6'), desc: t('spec6Desc') },
   ];
 
   return (
@@ -25,7 +26,7 @@ export default async function Specialties({ locale }: SpecialtiesProps) {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
           {specialties.map((spec, i) => (
             <div
               key={i}

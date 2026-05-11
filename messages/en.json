@@ -19,9 +19,9 @@
   },
   "about": {
     "title": "About Us",
-    "text": "Dr. Saeed Alziyadi has been facilitating medical journeys for Arab patients to Russia for over a decade. We offer a comprehensive service that begins with coordinating with the best Russian doctors, through accurate medical translation, accommodation and transport, all the way to post-treatment follow-up.",
-    "card1": "Trusted Medical Expertise",
-    "card2": "Specialized Medical Translation",
+    "text": "We are an elite team of Arab doctors working in the Russian Ministry of Health under the direct supervision of Dr. Saeed Alziyadi. We offer a comprehensive service that begins with coordinating with the best Russian doctors, through accurate medical translation, accommodation and transport, all the way to post-treatment follow-up.",
+    "card1": "Orthopedic Specialist",
+    "card2": "Company CEO",
     "card3": "Top Hospital Partnerships",
     "card4": "Post-Treatment Follow-Up"
   },
@@ -66,14 +66,16 @@
     "spec4": "Oncology",
     "spec4Desc": "Chemotherapy, radiotherapy, and specialized surgery",
     "spec5": "Neurology",
-    "spec5Desc": "Brain and spinal surgery and neurological disease treatment"
+    "spec5Desc": "Brain and spinal surgery and neurological disease treatment",
+    "spec6": "Rehabilitation",
+    "spec6Desc": "Specialized programs for rehabilitation after strokes and surgeries, plus prosthetic limbs"
   },
   "whyUs": {
     "title": "Why Choose Us?",
     "row1Title": "Over a Decade of Experience",
     "row1Desc": "More than 10 years facilitating medical journeys for Arab patients to Russia with a proven track record of success",
     "row2Title": "Trusted Partnerships",
-    "row2Desc": "Established partnerships with the finest hospitals and medical centers in Moscow and St. Petersburg",
+    "row2Desc": "Established partnerships with the finest hospitals and medical centers in Moscow and St. Petersburg, and relationships with colleague doctors in hospitals that facilitate communicating cases medically and professionally and accelerating admission procedures",
     "row3Title": "Arabic-Language Service",
     "row3Desc": "A dedicated Arabic-speaking team accompanies you at every step of your medical journey",
     "row4Title": "Transparent Pricing",
@@ -137,7 +139,7 @@
     },
     {
       "q": "Do I need a medical visa to enter Russia?",
-      "a": "Yes, most Arab patients need a visa to enter Russia. We help you obtain a special medical visa through our partnerships with Russian hospitals. Visa processing typically takes 7-14 business days."
+      "a": "All Gulf countries and Jordan do not need an entry visa. Other countries may need a facilitated entry visa such as Algeria, Morocco, and Tunisia. For the remaining countries, an entry visa is required and we help patients obtain it easily."
     },
     {
       "q": "Is medical translation available throughout treatment?",

@@ -12,9 +12,9 @@ const titles: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
-  ar: 'إجابات على أكثر الأسئلة شيوعاً حول السياحة الطبية في روسيا مع الدكتور سعيد الزيادي.',
-  en: 'Answers to the most common questions about medical tourism in Russia with Dr. Saeed Alziyadi.',
-  ru: 'Ответы на наиболее часто задаваемые вопросы о медицинском туризме в России с доктором Саидом Аль-Зияди.',
+	ar: "إجابات على أكثر الأسئلة شيوعاً حول السياحة الطبية في روسيا مع فريق شركة الدكتور سعيد الزيادي.",
+	en: "Answers to the most common questions about medical tourism in Russia with Dr. Saeed Alziyadi.",
+	ru: "Ответы на наиболее часто задаваемые вопросы о медицинском туризме в России с доктором Саидом Аль-Зияди.",
 };
 
 type FaqItem = { q: string; a: string };

@@ -48,7 +48,7 @@ export default async function About({ locale }: AboutProps) {
               <div className="text-center text-white">
                 <Award size={64} className="mx-auto mb-4 opacity-70" />
                 <p className="font-semibold text-lg">Dr. Saeed Alziyadi</p>
-                <p className="text-white/70 text-sm">Medical Tourism Specialist</p>
+                <p className="text-white/70 text-sm">Orthopedic Specialist & Company CEO</p>
               </div>
             </div>
             {/* Floating certified badge */}

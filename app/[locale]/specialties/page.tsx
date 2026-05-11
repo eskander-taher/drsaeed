@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { Eye, Bone, Heart, Ribbon, Activity } from 'lucide-react';
+import { Eye, Bone, Heart, Ribbon, Activity, Users } from 'lucide-react';
 import JsonLd from '@/components/seo/JsonLd';
 import Link from 'next/link';
 
@@ -13,9 +13,9 @@ const titles: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
-	ar: "تخصصات طبية متميزة في روسيا: طب العيون، العظام، القلب، الأورام، والأعصاب.",
-	en: "Exceptional medical specialties in Russia: Ophthalmology, Orthopedics, Cardiology, Oncology, and Neurology.",
-	ru: "Исключительные медицинские специализации в России: офтальмология, ортопедия, кардиология, онкология и  Нейрохирургия.",
+	ar: "تخصصات طبية متميزة في روسيا: طب العيون، العظام، القلب، الأورام، الأعصاب، وإعادة التأهيل.",
+	en: "Exceptional medical specialties in Russia: Ophthalmology, Orthopedics, Cardiology, Oncology, Neurology, and Rehabilitation.",
+	ru: "Исключительные медицинские специализации в России: офтальмология, ортопедия, кардиология, онкология, нейрохирургия и реабилитация.",
 };
 
 export async function generateMetadata({
@@ -58,6 +58,7 @@ export default async function SpecialtiesPage({
       'تحتضن موسكو عدة مراكز قلب متخصصة بمستوى عالمي تقدم خدمات القسطرة والجراحة المفتوحة وتركيب الصمامات والأجهزة الإيقاعية باحترافية عالية.',
       'تتقدم أبحاث علاج السرطان في روسيا بخطى متسارعة. تتوفر أحدث بروتوكولات العلاج الكيميائي والمناعي والإشعاعي في مراكز متخصصة.',
       'تتمتع روسيا بكفاءة عالية في جراحات الدماغ والأعصاب الشوكية، بالإضافة إلى علاج الأمراض العصبية التنكسية كالشلل الرعاش والتصلب اللويحي.',
+      'تقدم روسيا برامج إعادة تأهيل متطورة بعد الجلطات الدماغية والعمليات الجراحية، مع توفير الأطراف الصناعية الحديثة وفرق إعادة تأهيل متخصصة.',
     ],
     en: [
       'Russian hospitals excel in the latest eye surgery technologies, including advanced LASIK, femtosecond laser vision correction, and multifocal intraocular lens implantation. Success rates reach up to 98%.',
@@ -65,6 +66,7 @@ export default async function SpecialtiesPage({
       'Moscow hosts several world-class specialized cardiac centers offering catheterization, open-heart surgery, valve replacement, and pacemaker implantation with high professionalism.',
       'Cancer treatment research in Russia is advancing rapidly. The latest chemotherapy, immunotherapy, and radiotherapy protocols are available at specialized centers.',
       'Russia has high expertise in brain and spinal cord surgeries, as well as treating neurodegenerative diseases such as Parkinson\'s disease and multiple sclerosis.',
+      'Russia offers advanced rehabilitation programs after strokes and surgeries, with modern prosthetic limbs and specialized rehabilitation teams.',
     ],
     ru: [
       'Российские больницы превосходят по уровню новейших технологий глазной хирургии, включая передовой LASIK, фемтосекундную лазерную коррекцию зрения и мультифокальные интраокулярные линзы. Показатели успеха достигают 98%.',
@@ -72,6 +74,7 @@ export default async function SpecialtiesPage({
       'В Москве расположено несколько специализированных кардиологических центров мирового уровня, предоставляющих услуги катетеризации, операции на открытом сердце, замены клапанов и кардиостимуляторов.',
       'Исследования в области лечения онкологических заболеваний в России стремительно развиваются. В специализированных центрах доступны новейшие протоколы химиотерапии, иммунотерапии и лучевой терапии.',
       'Россия обладает высокими компетенциями в области хирургии головного и спинного мозга, а также в лечении нейродегенеративных заболеваний, таких как болезнь Паркинсона и рассеянный склероз.',
+      'Россия предлагает передовые программы реабилитации после инсультов и операций, с современными протезами и специализированными реабилитационными командами.',
     ],
   };
 
@@ -81,6 +84,7 @@ export default async function SpecialtiesPage({
     { icon: Heart, title: t('spec3'), desc: t('spec3Desc'), details: detailsMap[locale]?.[2] ?? '' },
     { icon: Ribbon, title: t('spec4'), desc: t('spec4Desc'), details: detailsMap[locale]?.[3] ?? '' },
     { icon: Activity, title: t('spec5'), desc: t('spec5Desc'), details: detailsMap[locale]?.[4] ?? '' },
+    { icon: Users, title: t('spec6'), desc: t('spec6Desc'), details: detailsMap[locale]?.[5] ?? '' },
   ];
 
   const breadcrumbJsonLd = {
