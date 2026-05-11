@@ -109,13 +109,12 @@
     "card4Desc": "Guided tours of Moscow for patient companions during the treatment period"
   },
   "contact": {
-    "title": "Contact Us Now",
-    "subtitle": "Our team is available around the clock to answer your questions and organize your medical journey",
-    "email": "info@drsaeedalziyadi.com",
-    "address": "Moscow, Russian Federation",
-    "whatsapp1": "+7 925 250 0066",
-    "whatsapp2": "+966 598 297 567",
-    "whatsapp3": "+7 925 258 0005"
+		"title": "Contact Us Now",
+		"subtitle": "Our team is available around the clock to answer your questions and organize your medical journey",
+		"email": "drsaeedalziyadi@gmail.com",
+		"address": "Moscow, Russian Federation",
+		"whatsapp1": "+7 925 250 0066",
+		"whatsapp3": "+7 925 258 0005"
   },
   "footer": {
     "tagline": "Your medical journey to Russia in trusted hands",

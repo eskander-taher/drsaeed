@@ -9,9 +9,8 @@ export default async function ContactCTA({ locale }: ContactCTAProps) {
   const t = await getTranslations({ locale, namespace: 'contact' });
 
   const numbers = [
-    { flag: '🇷🇺', label: t('whatsapp1'), href: 'https://wa.me/79252500066' },
-    { flag: '🇸🇦', label: t('whatsapp2'), href: 'https://wa.me/966598297567' },
-    { flag: '🇷🇺', label: t('whatsapp3'), href: 'https://wa.me/79252580005' },
+		{ flag: "🇷🇺", label: t("whatsapp1"), href: "https://wa.me/79252500066" },
+		{ flag: "🇷🇺", label: t("whatsapp3"), href: "https://wa.me/79252580005" },
   ];
 
   return (

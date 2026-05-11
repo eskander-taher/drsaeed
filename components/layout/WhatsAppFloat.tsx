@@ -5,8 +5,7 @@ import { MessageCircle, X } from 'lucide-react';
 
 const NUMBERS = [
   { flag: '🇷🇺', label: '+7 925 250 0066', href: 'https://wa.me/79252500066' },
-  { flag: '🇸🇦', label: '+966 598 297 567', href: 'https://wa.me/966598297567' },
-  { flag: '🇷🇺', label: '+7 925 258 0005', href: 'https://wa.me/79252580005' },
+  { flag: '🇺', label: '+7 925 258 0005', href: 'https://wa.me/79252580005' },
 ];
 
 export default function WhatsAppFloat() {

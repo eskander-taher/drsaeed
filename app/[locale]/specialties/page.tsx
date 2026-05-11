@@ -13,9 +13,9 @@ const titles: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
-  ar: 'تخصصات طبية متميزة في روسيا: طب العيون، العظام، القلب، الأورام، والأعصاب.',
-  en: 'Exceptional medical specialties in Russia: Ophthalmology, Orthopedics, Cardiology, Oncology, and Neurology.',
-  ru: 'Исключительные медицинские специализации в России: офтальмология, ортопедия, кардиология, онкология и неврология.',
+	ar: "تخصصات طبية متميزة في روسيا: طب العيون، العظام، القلب، الأورام، والأعصاب.",
+	en: "Exceptional medical specialties in Russia: Ophthalmology, Orthopedics, Cardiology, Oncology, and Neurology.",
+	ru: "Исключительные медицинские специализации в России: офтальмология, ортопедия, кардиология, онкология и  Нейрохирургия.",
 };
 
 export async function generateMetadata({
